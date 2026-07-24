@@ -20,9 +20,13 @@ docker pull ghcr.io/root-project/root:latest
 
 | Image tag | ROOT tag | Dockerfile |
 | --- | --- | --- |
+| `ghcr.io/root-project/root:6.40.02-ubuntu24.04` | `v6-40-02` | [ubuntu2404/Dockerfile](https://github.com/root-project/root-docker/blob/master/ubuntu2404/Dockerfile) |
+| `ghcr.io/root-project/root:6.40.00-ubuntu24.04` | `v6-40-00` | [ubuntu2404/Dockerfile](https://github.com/root-project/root-docker/blob/master/ubuntu2404/Dockerfile) |
+| `ghcr.io/root-project/root:6.38.06-ubuntu24.04` | `v6-38-06` | [ubuntu2404/Dockerfile](https://github.com/root-project/root-docker/blob/master/ubuntu2404/Dockerfile) |
 | `ghcr.io/root-project/root:6.38.04-ubuntu24.04` | `v6-38-04` | [ubuntu2404/Dockerfile](https://github.com/root-project/root-docker/blob/master/ubuntu2404/Dockerfile) |
 | `ghcr.io/root-project/root:6.38.02-ubuntu24.04` | `v6-38-02` | [ubuntu2404/Dockerfile](https://github.com/root-project/root-docker/blob/master/ubuntu2404/Dockerfile) |
 | `ghcr.io/root-project/root:6.38.00-ubuntu24.04` | `v6-38-00` | [ubuntu2404/Dockerfile](https://github.com/root-project/root-docker/blob/master/ubuntu2404/Dockerfile) |
+| `ghcr.io/root-project/root:6.36.14-ubuntu24.04` | `v6-36-14` | [ubuntu2404/Dockerfile](https://github.com/root-project/root-docker/blob/master/ubuntu2404/Dockerfile) |
 | `ghcr.io/root-project/root:6.36.12-ubuntu24.04` | `v6-36-12` | [ubuntu2404/Dockerfile](https://github.com/root-project/root-docker/blob/master/ubuntu2404/Dockerfile) |
 | `ghcr.io/root-project/root:6.36.10-ubuntu24.04` | `v6-36-10` | [ubuntu2404/Dockerfile](https://github.com/root-project/root-docker/blob/master/ubuntu2404/Dockerfile) |
 | `ghcr.io/root-project/root:6.36.08-ubuntu24.04` | `v6-36-08` | [ubuntu2404/Dockerfile](https://github.com/root-project/root-docker/blob/master/ubuntu2404/Dockerfile) |
@@ -36,6 +40,7 @@ docker pull ghcr.io/root-project/root:latest
 | `ghcr.io/root-project/root:6.34.04-ubuntu24.04` | `v6-34-04` | [ubuntu2404/Dockerfile](https://github.com/root-project/root-docker/blob/master/ubuntu2404/Dockerfile) |
 | `ghcr.io/root-project/root:6.34.02-ubuntu24.04` | `v6-34-02` | [ubuntu2404/Dockerfile](https://github.com/root-project/root-docker/blob/master/ubuntu2404/Dockerfile) |
 | `ghcr.io/root-project/root:6.34.00-ubuntu24.04` | `v6-34-00` | [ubuntu2404/Dockerfile](https://github.com/root-project/root-docker/blob/master/ubuntu2404/Dockerfile) |
+| `ghcr.io/root-project/root:6.32.24-ubuntu24.04` | `v6-32-24` | [ubuntu2404/Dockerfile](https://github.com/root-project/root-docker/blob/master/ubuntu2404/Dockerfile) |
 | `ghcr.io/root-project/root:6.32.22-ubuntu24.04` | `v6-32-22` | [ubuntu2404/Dockerfile](https://github.com/root-project/root-docker/blob/master/ubuntu2404/Dockerfile) |
 | `ghcr.io/root-project/root:6.32.20-ubuntu24.04` | `v6-32-20` | [ubuntu2404/Dockerfile](https://github.com/root-project/root-docker/blob/master/ubuntu2404/Dockerfile) |
 | `ghcr.io/root-project/root:6.32.18-ubuntu24.04` | `v6-32-18` | [ubuntu2404/Dockerfile](https://github.com/root-project/root-docker/blob/master/ubuntu2404/Dockerfile) |
@@ -48,14 +53,17 @@ docker pull ghcr.io/root-project/root:latest
 | `ghcr.io/root-project/root:6.32.04-ubuntu24.04` | `v6-32-04` | [ubuntu2404/Dockerfile](https://github.com/root-project/root-docker/blob/master/ubuntu2404/Dockerfile) |
 | `ghcr.io/root-project/root:6.32.02-ubuntu24.04` | `v6-32-02` | [ubuntu2404/Dockerfile](https://github.com/root-project/root-docker/blob/master/ubuntu2404/Dockerfile) |
 | `ghcr.io/root-project/root:6.32.00-ubuntu24.04` | `v6-32-00` | [ubuntu2404/Dockerfile](https://github.com/root-project/root-docker/blob/master/ubuntu2404/Dockerfile) |
+| `ghcr.io/root-project/root:6.30.12-ubuntu24.04` | `v6-30-12` | [ubuntu2404/Dockerfile](https://github.com/root-project/root-docker/blob/master/ubuntu2404/Dockerfile) |
 | `ghcr.io/root-project/root:6.30.10-ubuntu24.04` | `v6-30-10` | [ubuntu2404/Dockerfile](https://github.com/root-project/root-docker/blob/master/ubuntu2404/Dockerfile) |
 | `ghcr.io/root-project/root:6.30.08-ubuntu22.04` | `v6-30-08` | [ubuntu2204/Dockerfile](https://github.com/root-project/root-docker/blob/master/ubuntu2204/Dockerfile) |
 | `ghcr.io/root-project/root:6.30.06-ubuntu22.04` | `v6-30-06` | [ubuntu2204/Dockerfile](https://github.com/root-project/root-docker/blob/master/ubuntu2204/Dockerfile) |
 | `ghcr.io/root-project/root:6.30.04-ubuntu22.04` | `v6-30-04` | [ubuntu2204/Dockerfile](https://github.com/root-project/root-docker/blob/master/ubuntu2204/Dockerfile) |
 | `ghcr.io/root-project/root:6.30.02-ubuntu22.04` | `v6-30-02` | [ubuntu2204/Dockerfile](https://github.com/root-project/root-docker/blob/master/ubuntu2204/Dockerfile) |
+| `ghcr.io/root-project/root:6.28.16-ubuntu24.04` | `v6-28-16` | [ubuntu2404/Dockerfile](https://github.com/root-project/root-docker/blob/master/ubuntu2404/Dockerfile) |
 | `ghcr.io/root-project/root:6.28.14-ubuntu24.04` | `v6-28-14` | [ubuntu2404/Dockerfile](https://github.com/root-project/root-docker/blob/master/ubuntu2404/Dockerfile) |
 | `ghcr.io/root-project/root:6.28.12-ubuntu22.04` | `v6-28-12` | [ubuntu2204/Dockerfile](https://github.com/root-project/root-docker/blob/master/ubuntu2204/Dockerfile) |
 | `ghcr.io/root-project/root:6.28.10-ubuntu22.04` | `v6-28-10` | [ubuntu2204/Dockerfile](https://github.com/root-project/root-docker/blob/master/ubuntu2204/Dockerfile) |
+| `ghcr.io/root-project/root:6.26.20-ubuntu22.04` | `v6-26-20` | [ubuntu2204/Dockerfile](https://github.com/root-project/root-docker/blob/master/ubuntu2204/Dockerfile) |
 | `ghcr.io/root-project/root:6.26.18-ubuntu22.04` | `v6-26-18` | [ubuntu2204/Dockerfile](https://github.com/root-project/root-docker/blob/master/ubuntu2204/Dockerfile) |
 | `ghcr.io/root-project/root:6.26.16-ubuntu22.04` | `v6-26-16` | [ubuntu2204/Dockerfile](https://github.com/root-project/root-docker/blob/master/ubuntu2204/Dockerfile) |
 | `ghcr.io/root-project/root:6.26.14-ubuntu22.04` | `v6-26-14` | [ubuntu2204/Dockerfile](https://github.com/root-project/root-docker/blob/master/ubuntu2204/Dockerfile) |
@@ -73,7 +81,7 @@ docker pull ghcr.io/root-project/root:latest
 | `ghcr.io/root-project/root:6.20.08-ubuntu20.04` | `v6-20-08` | [ubuntu20/Dockerfile](https://github.com/root-project/root-docker/blob/master/ubuntu20/Dockerfile) |
 | `ghcr.io/root-project/root:6.20.06-ubuntu20.04` | `v6-20-06` | [ubuntu20/Dockerfile](https://github.com/root-project/root-docker/blob/master/ubuntu20/Dockerfile) |
 
-`ghcr.io/root-project/root:latest` points to `6.38.04-ubuntu24.04`.
+`ghcr.io/root-project/root:latest` points to `6.40.02-ubuntu24.04`.
 
 <!-- END ROOT-GHCR-IMAGES -->
 
