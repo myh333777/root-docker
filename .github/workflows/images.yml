@@ -34,7 +34,18 @@ jobs:
   validate:
     name: Validate automation
     runs-on: ubuntu-latest
+    # A fork cannot publish to root-project/root with its repository-scoped GITHUB_TOKEN.
+    # Skip expensive scheduled builds here; preserve manual dry-run and PR validation.
+    if: ${{ github.event_name != 'schedule' || github.repository_owner == 'root-project' }}
     steps:
+      - name: Preflight GHCR publisher before dispatching the matrix
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run != true }}
+        shell: bash
+        run: |
+          if [[ "${GITHUB_REPOSITORY_OWNER,,}" != "${IMAGE_NAMESPACE,,}" ]]; then
+            echo "::error::GHCR target ghcr.io/${IMAGE_NAMESPACE}/${IMAGE_NAME} requires publication access in that namespace; the repository GITHUB_TOKEN belongs to ${GITHUB_REPOSITORY_OWNER}. Use dry_run or authorize and configure a target you own before building."
+            exit 1
+          fi
       - name: Checkout repository
         uses: actions/checkout@v6
 
